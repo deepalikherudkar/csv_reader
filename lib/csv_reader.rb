@@ -1,5 +1,5 @@
 require "csv_reader/version"
+require "csv_reader/reader"
 
 module CsvReader
-  # Your code goes here...
 end
