@@ -12,6 +12,7 @@ module CsvReader
       @parser.data_rows.each do |row|
         return row if row[index] == @value_to_find
       end
+      nil
     end
   end
 end

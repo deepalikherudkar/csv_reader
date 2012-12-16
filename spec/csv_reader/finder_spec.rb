@@ -16,4 +16,8 @@ describe CsvReader::Finder do
   it "should find correct rows" do
     CsvReader::Finder.new(@parser, "login", "dipu").find.should eq @dipu_row
   end
+
+  it "should return nil if row not found" do
+    CsvReader::Finder.new(@parser, "login", "hobbit").find.should be_nil
+  end
 end

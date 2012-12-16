@@ -4,8 +4,8 @@ require File.expand_path('../lib/csv_reader/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Deepali Kherudkar"]
   gem.email         = ["deepali@bangthetable.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{CSV Reader}
+  gem.summary       = %q{CSV Reader}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
